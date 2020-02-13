@@ -34,7 +34,7 @@ python -u infer.py \
 --cutoff_prob=1.0 \
 --cutoff_top_n=40 \
 --use_gru=False \
---use_gpu=True \
+--use_gpu=False \
 --share_rnn_weights=True \
 --infer_manifest='data/tiny/manifest.test-clean' \
 --mean_std_path='models/librispeech/mean_std.npz' \
